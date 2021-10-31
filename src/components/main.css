@@ -1,0 +1,118 @@
+#root{
+    margin:0;
+    padding:0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#top_menu{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#top_menu>a{
+    display: flex;
+    clear: none;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.5em;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+#event_feed, #event_description{
+    margin-top: 0;
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    float: left;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 1%;
+    border: 2px solid black;
+}
+
+#event_feed>.event_info{
+    background-color: #fcfcfc;
+    border: 1px solid black;
+    border-radius: 1%;
+    margin-top: 2%;
+}
+
+#event_feed>.event_info>img, #event_description>img{
+    padding-left: 10%;
+    width: 80%;
+    display: block;
+    clear: both;
+}
+
+#event_feed>.event_info>.category{
+    float: left;
+}
+
+#event_feed>.event_info>.time_place{
+    float: right;
+}
+
+form {
+    width: 33%;
+    margin-left: 33%;
+}
+
+form>.form_row{
+    display: block;
+    clear: both;
+}
+
+.form_row>label{
+    text-align: left;
+    float: left;
+}
+
+.form_row>input, .form_row>textarea, select{
+    text-align: right;
+    float: right;
+    size: 30;
+}
+
+.form_row>input[type=submit]{
+    float: none;
+    margin-left: 40%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#event_participants, #event_filter{
+    float: right;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 1%;
+}
+
+#take_part_button{
+    text-align: center;
+    margin-left: 40%;
+    width: 20%;
+    margin-top: 2%;
+}
+
+#participants_list{
+    text-align: center;
+    list-style-type: none;
+}
+
+#expected_people{
+    text-align: center;
+}
